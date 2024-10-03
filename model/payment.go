@@ -8,5 +8,5 @@ type Payment struct {
 	Amount      float64   `gorm:"type:numeric" json:"amoun"`
 	Method      string    `gorm:"type:varchar(100)" json:"method"`
 	Status      string    `gorm:"type:varchar(100)" json:"status"`
-	PaymentDate time.Time `json:"payment_date"`
+	PaymentDate time.Time `json:"payment_data"`
 }
